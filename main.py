@@ -12,7 +12,7 @@ app = Client("tilon", api_id=2424010, api_hash='9fb173ded391c8aca77667709be270e3
 async def _start(_, message):
     keyboard = InlineKeyboardMarkup([[InlineKeyboardButton("Inlineda sinab ko'rish", switch_inline_query="Salom")]])
 
-    await message.reply_text("Assalomu alaykum xush kelibsiz\n\nBot orqali siz lotin xafridagi soʻzlar, gaplarni kirill xarfiga va kirill xarfidagi soʻzlar gaplarni lotinga oʻgirib beraman!\n\nBy @Kirill_lotin_robot\n\n👨🏻‍💻 Bot dasturchisi: @Py_run", reply_markup=keyboard)
+    await message.reply_text("Assalomu alaykum xush kelibsiz\n\nBot orqali siz lotin xafridagi soʻzlar, gaplarni kirill xarfiga va kirill xarfidagi soʻzlar gaplarni lotinga oʻgirib beraman!\n\n👨‍💻Admin : @Py_run\n\n🤖Bot : @Kirill_lotin_robot", reply_markup=keyboard)
 
 
 @app.on_message(private & text)
