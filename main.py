@@ -12,7 +12,7 @@ app = Client("tilon", api_id=2424010, api_hash='9fb173ded391c8aca77667709be270e3
 async def _start(_, message):
     keyboard = InlineKeyboardMarkup([[InlineKeyboardButton("Inlineda sinab ko'rish", switch_inline_query="Salom")]])
 
-    await message.reply_text("Assalomu alaykum >_run xush kelibsiz
+    await message.reply_text("Assalomu alaykum xush kelibsiz
 
 Bot orqali siz lotin xafridagi soʻzlar, gaplarni kirill xarfiga va kirill xarfidagi soʻzlar gaplarni lotinga oʻgirib beraman!
 
