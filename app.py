@@ -4,9 +4,8 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, InlineQue
 
 from function import transliterate
 
-app = Client("sardor", api_id=16255557, api_hash='9d4abb8e7eec941d6faf20b9a8b2de14',
+app = Client("tilon", api_id=2424010, api_hash='9fb173ded391c8aca77667709be270e3',
              bot_token="1940937396:AAHU2Xr7Vwp5K_MNciGqyK0btrcGMYDmNrA")
-
 
 @app.on_message(private & command(['start']))
 async def _start(_, message):
