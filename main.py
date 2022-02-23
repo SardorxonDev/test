@@ -13,7 +13,7 @@ async def _start(_, message):
     keyboard = InlineKeyboardMarkup([[InlineKeyboardButton("Inlineda sinab ko'rish", switch_inline_query="Salom")]])
 
     await message.reply_text("Salom, men kirill harflarini lotinga yoki lotin harflarini kirillga o‘tkazib beraman."
-                             "Shunchaki matningizni yuboring", reply_markup=keyboard)
+                             "Shunchaki matningizni yuboring\n\n👨🏻‍💻 Bot dasturchisi: @Py_run", reply_markup=keyboard)
 
 
 @app.on_message(private & text)
