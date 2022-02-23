@@ -5,7 +5,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, InlineQue
 from function import transliterate
 
 app = Client("tilon", api_id=2424010, api_hash='9fb173ded391c8aca77667709be270e3',
-             bot_token="bot_tokeni")
+             bot_token="1940937396:AAHU2Xr7Vwp5K_MNciGqyK0btrcGMYDmNrA")
 
 
 @app.on_message(private & command(['start']))
